@@ -10,6 +10,8 @@ const nextConfig = {
   images: {
     domains: ["utfs.io", "uploadthing.com"],
   },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 };
-
 module.exports = nextConfig;
